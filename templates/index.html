@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chicken Disease Detection</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        background-color: #f4f4f4;
+      }
+
+      header {
+        background-color: #34495e;
+        color: white;
+        text-align: center;
+        padding: 30px;
+      }
+
+      header h1 {
+        margin: 0;
+        font-size: 2.5em;
+      }
+
+      .hero {
+        background-color: #2ecc71;
+        height: 60vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        text-align: center;
+      }
+
+      .hero h2 {
+        font-size: 2.5em;
+        margin: 0;
+      }
+
+      .accuracy-section {
+        background-color: white;
+        padding: 40px;
+        text-align: center;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        margin: 20px;
+        border-radius: 10px;
+      }
+
+      .accuracy-section h3 {
+        font-size: 2em;
+        margin-bottom: 10px;
+      }
+
+      .accuracy-value {
+        font-size: 4em;
+        color: #e74c3c;
+        margin: 20px 0;
+      }
+
+      .metrics {
+        display: flex;
+        justify-content: space-around;
+        margin: 30px 0;
+      }
+
+      .metric-box {
+        background-color: #ecf0f1;
+        padding: 20px;
+        border-radius: 8px;
+        width: 30%;
+      }
+
+      .metric-box h4 {
+        margin-bottom: 15px;
+      }
+
+      .metric-value {
+        font-size: 1.5em;
+        color: #2c3e50;
+      }
+
+      footer {
+        background-color: #34495e;
+        color: white;
+        text-align: center;
+        padding: 20px;
+        margin-top: 20px;
+      }
+
+      @media (max-width: 768px) {
+        .metrics {
+          flex-direction: column;
+          align-items: center;
+        }
+
+        .metric-box {
+          width: 80%;
+          margin-bottom: 20px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Header -->
+    <header>
+      <h1>Chicken Disease Detection System</h1>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+      <h2>Reliable Disease Detection for Your Poultry</h2>
+    </section>
+
+    <!-- Accuracy Section -->
+    <section class="accuracy-section">
+      <h3>Current Detection Accuracy</h3>
+      <div class="accuracy-value">95%</div>
+      <p>
+        This system has been trained to detect diseases with high precision
+        using deep learning models.
+      </p>
+
+      <div class="metrics">
+        <div class="metric-box">
+          <h4>Precision</h4>
+          <div class="metric-value">92%</div>
+        </div>
+        <div class="metric-box">
+          <h4>Recall</h4>
+          <div class="metric-value">89%</div>
+        </div>
+        <div class="metric-box">
+          <h4>F1-Score</h4>
+          <div class="metric-value">90%</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <p>&copy; 2024 Chicken Disease Detection. All Rights Reserved.</p>
+    </footer>
+  </body>
+</html>
